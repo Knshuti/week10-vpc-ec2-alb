@@ -48,7 +48,7 @@ resource "aws_subnet" "private1" {
 }
   
 resource "aws_subnet" "private2" {
-    availability_zone = "us-east-1a"
+    availability_zone = "us-east-1b"
     cidr_block = "192.168.4.0/24"
     vpc_id = aws_vpc.vpc1.id
     tags={
