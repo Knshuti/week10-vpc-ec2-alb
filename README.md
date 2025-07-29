@@ -1,1 +1,1 @@
-# week10-vpc-ec2-alb
+# vpc-ec2-alb
